@@ -1,6 +1,7 @@
 import type {AddressInfo} from 'node:net'
 
-import {type ClientConfig, createClient} from '@sanity/client'
+import {type ClientConfig} from '@sanity/client'
+import {createClient} from '@sanity/client'
 import {describe, expect, test} from 'vitest'
 
 import {createSseServer, type OnRequest} from './helpers/sseServer'

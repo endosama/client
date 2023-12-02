@@ -1,4 +1,5 @@
-import {lastValueFrom, type Observable} from 'rxjs'
+import {lastValueFrom} from 'rxjs'
+import {type ObservablecreateClient} from 'rxjs'
 
 import {_request} from '../data/dataMethods'
 import type {ObservableSanityClient, SanityClient} from '../SanityClient'

@@ -1,4 +1,5 @@
-import {type MonoTypeOperatorFunction, Observable} from 'rxjs'
+import {type MonoTypeOperatorFunction} from 'rxjs'
+import {type Observable} from 'rxjs'
 import {filter, map} from 'rxjs/operators'
 
 import {validateApiPerspective} from '../config'
