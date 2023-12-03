@@ -1,4 +1,5 @@
-import {lastValueFrom, Observable} from 'rxjs'
+import {lastValueFrom} from 'rxjs'
+import {type Observable} from 'rxjs'
 
 import {AssetsClient, ObservableAssetsClient} from './assets/AssetsClient'
 import {defaultConfig, initConfig} from './config'

@@ -1,4 +1,5 @@
-import {lastValueFrom, type Observable} from 'rxjs'
+import {type Observable} from 'rxjs'
+import {lastValueFrom} from 'rxjs'
 import {filter, map} from 'rxjs/operators'
 
 import {_requestObservable} from '../data/dataMethods'
