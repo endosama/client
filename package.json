@@ -106,6 +106,7 @@
     "coverage": "vitest run --coverage",
     "lint": "eslint . --ext .cjs,.js,.ts --max-warnings 0",
     "minify": "terser -c -m -- umd/sanityClient.js > umd/sanityClient.min.js",
+    "prepublish": "npm run build",
     "prepublishOnly": "npm run build",
     "rollup": "NODE_ENV=production rollup -c rollup.config.cjs",
     "test": "vitest",
